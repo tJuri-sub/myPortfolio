@@ -9,7 +9,7 @@ import Experience from "./components/Experience.jsx";
 function App() {
   return (
     <>
-      <div className="container mx-auto px-44 ">
+      <div className="container mx-auto md:px-44 ">
         <Header />
         <Landing />
         <Project />

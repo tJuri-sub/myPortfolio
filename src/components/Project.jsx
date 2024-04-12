@@ -1,6 +1,6 @@
 const ProjectPane = () => {
   return (
-    <div className="text-portfolio-secondary flex items-center justifty-center my-20 gap-5">
+    <div className="text-portfolio-secondary md:flex items-center justifty-center my-20 gap-5">
       <div className="bg-portfolio-lightgray rounded-xl">
         <img className="rounded-t-xl" src="/espression.png" alt="Esspression" />
         <div className="p-5">
