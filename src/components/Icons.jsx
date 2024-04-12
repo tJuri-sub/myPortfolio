@@ -12,7 +12,7 @@ import {
 const Skills = () => {
   return (
     <div>
-      <h1 className="text-[#7C7878] text-4xl font-bold tracking-wider my-2">
+      <h1 className="bg-gradient-to-r from-portfolio-accent to-portfolio-highlight bg-clip-text text-transparent text-4xl font-bold tracking-wider my-2">
         Skills
       </h1>
       <p className=" text-xl tracking-wide">
