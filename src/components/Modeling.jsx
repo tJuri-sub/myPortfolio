@@ -4,8 +4,8 @@ const Blender = () => {
       <h1 className="text-center text-2xl uppercase mb-7 text-portfolio-secondary font-bold">
         3D Modeling & Animation
       </h1>
-      <div className="md:flex justify-center items-center gap-4">
-        <div className="bg-portfolio-gray md:w-1/3 rounded-xl aspect-square">
+      <div className="flex justify-center lg:flex-row md:flex-row  xs:flex-col  items-center gap-4">
+        <div className="bg-portfolio-gray lg:w-[100%] md:w-[80%] xs:w-[75%] rounded-xl aspect-square">
           <img className="rounded-t-xl" src="/car.png" alt="Car Animation" />
           <div className="p-3">
             <h1 className="text-[20px] font-bold">Car Animation</h1>
@@ -13,7 +13,7 @@ const Blender = () => {
               An animation of a car bumping to another car.
             </p>
             <a
-              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2  py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
+              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2 xs:px-1 py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
               href="https://youtu.be/lTW8TVRRZsc?si=-ID-8aL70kE2sicg"
               target="_blank"
             >
@@ -21,7 +21,7 @@ const Blender = () => {
             </a>
           </div>
         </div>
-        <div className="bg-portfolio-gray md:w-1/3 rounded-xl aspect-square">
+        <div className="bg-portfolio-gray lg:w-[100%] md:w-[80%] xs:w-[75%] rounded-xl aspect-square">
           <img
             className="rounded-t-xl"
             src="/part.png"
@@ -33,7 +33,7 @@ const Blender = () => {
               My SciFi Name floating around in a particles form.
             </p>
             <a
-              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2  py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
+              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2 xs:px-1 py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
               href="https://youtu.be/8jJl7VybAi4?si=sbWFS4nuJTvfwCAR"
               target="_blank"
             >
@@ -41,7 +41,7 @@ const Blender = () => {
             </a>
           </div>
         </div>
-        <div className="bg-portfolio-gray md:w-1/3 rounded-xl aspect-square">
+        <div className="bg-portfolio-gray lg:w-[100%] md:w-[80%] xs:w-[75%] rounded-xl aspect-square">
           <img className="rounded-t-xl" src="/magicc.png" alt="Magic Cave" />
           <div className="p-3">
             <h1 className="text-[20px] font-bold">Magic Cave</h1>
@@ -49,7 +49,7 @@ const Blender = () => {
               A magical cave that has a magical esssence flying around the cave.
             </p>
             <a
-              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2  py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
+              className="text-portfolio-secondary bg-[#3A3A3A] border-[#3A3A3A] border-2 xs:px-1 py-1 md:px-4 rounded-[5px] hover:bg-[#525252]"
               href="https://youtu.be/B-RhbL2qefc?si=C1xlIKhlW_22PXpM"
               target="_blank"
             >

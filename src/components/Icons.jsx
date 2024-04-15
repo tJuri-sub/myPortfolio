@@ -5,20 +5,20 @@ import {
   GitIcon,
   HtmlIcon,
   CssIcon,
-  JavaSIcon,
+  JavasIcon,
   BlenderIcon,
 } from "./Icon/index.jsx";
 
 const Skills = () => {
   return (
     <div>
-      <h1 className="bg-gradient-to-r from-portfolio-accent to-portfolio-highlight bg-clip-text text-transparent text-4xl font-bold tracking-wider my-2">
+      <h1 className="bg-gradient-to-r from-portfolio-accent to-portfolio-highlight bg-clip-text text-transparent text-4xl  xs:text-3xl font-bold tracking-wider my-2">
         Skills
       </h1>
-      <p className=" text-xl tracking-wide">
+      <p className=" lg:text-xl xs:text-lg tracking-wide">
         I am quite comfortable working with this technologies:
       </p>
-      <div className="skills-grid grid w-full gap-4 mt-10">
+      <div className="skills-grid grid w-full gap-4 mx-auto mt-10 max-xs:gap-2 md:mt-12 lg:text-lg">
         <div className="flex gap-3">
           <HtmlIcon />
           <p className="text-lg">HTML</p>
@@ -28,7 +28,7 @@ const Skills = () => {
           <p className="text-lg">CSS</p>
         </div>
         <div className="flex gap-3">
-          <JavaSIcon />
+          <JavasIcon />
           <p className="text-lg">JavaScript</p>
         </div>
         <div className="flex gap-3">

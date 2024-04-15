@@ -1,7 +1,7 @@
 const ProjectPane = () => {
   return (
-    <div className="text-portfolio-secondary md:flex items-center justifty-center my-20 gap-5">
-      <div className="bg-portfolio-lightgray rounded-xl">
+    <div className="text-portfolio-secondary flex lg:flex-row md:flex-row xs:flex-col items-center justifty-center my-20 xs:my-10 gap-5">
+      <div className="bg-portfolio-lightgray lg:w-[100%] md:w-[75%] xs:w-[70%] rounded-xl">
         <img className="rounded-t-xl" src="/espression.png" alt="Esspression" />
         <div className="p-5">
           <h2 className="text-3xl font-bold tracking-widest">Espression</h2>
@@ -32,7 +32,7 @@ const ProjectPane = () => {
           </div>
         </div>
       </div>
-      <div className="bg-portfolio-lightgray rounded-xl">
+      <div className="bg-portfolio-lightgray lg:w-[100%] md:w-[75%] xs:w-[70%]  rounded-xl">
         <img className="rounded-t-xl" src="/excelguide.png" alt="Excel Guide" />
         <div className="p-5">
           <h2 className="text-3xl font-bold tracking-widest">Excel Guide</h2>
