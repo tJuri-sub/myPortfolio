@@ -1,7 +1,9 @@
+import { useTypewriter } from "react-simple-typewriter";
+
 const Name = () => {
   return (
     <div>
-      <h1 className="text-portfolio-highlight xs:text-4xl lg:text-6xl font-bold text-center tracking-widest uppercase">
+      <h1 className="text-portfolio-highlight text-7xl font-bold tracking-widest uppercase mb-2">
         Juri Turiano
       </h1>
     </div>
@@ -9,10 +11,17 @@ const Name = () => {
 };
 
 const Subtitle = () => {
+  const [typeEffect] = useTypewriter({
+    words: ["Frontend Developer", "3D Modeler"],
+    loop: {},
+    typeSpeed: 100,
+    deleteSpeed: 40,
+  });
+
   return (
     <div>
-      <h2 className="text-3xl md:text-2xl xs:text-xl text-center font-medium tracking-wide lg:py-3 md:py-2 xs:py-1">
-        Front-end Developer
+      <h2 className="text-3xl  font-light tracking-wide ">
+        I am a <span className="text-portfolio-accent">{typeEffect}</span>
       </h2>
     </div>
   );

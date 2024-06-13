@@ -4,10 +4,14 @@ import Resume from "./Landing/Resume.jsx";
 
 const Land = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center">
-      <Profile />
-      <Name />
-      <Resume />
+    <div className="h-dvh flex flex-row items-center justify-center">
+      <div className="w-[100%] ">
+        <Name />
+        <Resume />
+      </div>
+      <div className="w-[80%] ">
+        <Profile />
+      </div>
     </div>
   );
 };

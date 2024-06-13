@@ -3,7 +3,7 @@ import "boxicons";
 const SocialLinks = () => {
   return (
     <div className="flex justify-center items-center gap-2">
-      <a href="mailto:juricuber.gmail.com">
+      <a href="mailto:tjurisalvador@gmail.com">
         <box-icon type="logo" name="gmail" color="#ffffff"></box-icon>
       </a>
       <a href="https://github.com/tJuri-sub" target="_blank">
