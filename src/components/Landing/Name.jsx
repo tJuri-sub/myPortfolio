@@ -22,6 +22,7 @@ const Subtitle = () => {
     <div>
       <h2 className="text-3xl  font-light tracking-wide ">
         I am a <span className="text-portfolio-accent">{typeEffect}</span>
+        <span className="text-portfolio-accent animate-blinking">|</span>
       </h2>
     </div>
   );

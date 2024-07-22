@@ -32,31 +32,43 @@ const Card = ({
   sourceCodeUrl,
 }) => {
   return (
-    <div className="bg-portfolio-secondary p-3 w-[30%] h-full rounded-md">
-      <img className="rounded-md" src={imgSrc} alt={imgAlt} />
-      <div className="my-3">
-        <div>
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <p className="text-md opacity-75 font-medium">{description}</p>
-          <p className="text-md opacity-50 font-medium my-3">Tools: {tools}</p>
-        </div>
-        <div className="flex justify-center items-center gap-3 mt-4">
-          <a
-            className="bg-portfolio-accent border-2 border-portfolio-accent text-portfolio-secondary py-1 px-5 rounded-md"
-            href={liveSiteUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live site
-          </a>
-          <a
-            className="text-portfolio-black border-2 border-portfolio-accent py-1 px-5 rounded-md"
-            href={sourceCodeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Source code
-          </a>
+    <div className=" p-6 w-full border-y-[1px] border-portfolio-glass-stroke">
+      <div className="flex flex-row-reverse justify-between items-center h-full">
+        <img
+          className="rounded-xl w-[40%] border-portfolio-glass-stroke border-4"
+          src={imgSrc}
+          alt={imgAlt}
+        />
+        <div className="flex flex-col justify-between">
+          <div>
+            <h1 className="text-3xl text-portfolio-secondary font-bold">
+              {title}
+            </h1>
+            <p className="text-md text-portfolio-secondary opacity-75 font-medium">
+              {description}
+            </p>
+            <p className="text-md text-portfolio-secondary opacity-50 font-medium my-3">
+              Tools: {tools}
+            </p>
+          </div>
+          <div className="flex justify-center items-center gap-3 mt-4">
+            <a
+              className="bg-portfolio-accent border-2 w-60 text-center border-portfolio-accent text-portfolio-secondary py-1 px-5 rounded-md hover:bg-[#df8da1] transition duration-300"
+              href={liveSiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live site
+            </a>
+            <a
+              className="text-portfolio-secondary border-2 w-60 text-center border-portfolio-accent py-1 px-5 rounded-md hover:bg-portfolio-accent hover:text-white transition duration-300"
+              href={sourceCodeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Source code
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -66,10 +78,10 @@ const Card = ({
 const ProjectPane = () => {
   return (
     <div className="my-20">
-      <h1 className="text-portfolio-secondary text-2xl mb-3 font-semibold uppercase">
+      <h1 className="text-portfolio-secondary text-3xl mb-10 text-center font-semibold uppercase">
         Projects
       </h1>
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col gap-3 justify-between items-center">
         {cardData.map((card, index) => (
           <Card
             key={index}

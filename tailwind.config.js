@@ -23,6 +23,15 @@ export default {
       spacing: {
         trans: "4px",
       },
+      keyframes: {
+        blinkings: {
+          "0%, 100%": { opacity: 0 },
+          "50%": { opacity: 1 },
+        },
+      },
+      animation: {
+        blinking: "blinkings .7s infinite",
+      },
     },
   },
   plugins: [],
