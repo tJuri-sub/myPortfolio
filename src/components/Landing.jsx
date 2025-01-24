@@ -7,7 +7,7 @@ const Land = () => {
     <div className="h-dvh flex flex-row items-center justify-center">
       <div className="w-[100%] ">
         <Name />
-        <Resume />
+        {/* <Resume /> */}
       </div>
       <div className="w-[80%] ">
         <Profile />

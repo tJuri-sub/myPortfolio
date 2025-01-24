@@ -7,6 +7,9 @@ import {
   CssIcon,
   JavasIcon,
   BlenderIcon,
+  MongoDBIcon,
+  ExpressIcon,
+  NodeJSIcon,
 } from "./Icon/index.jsx";
 
 const Skills = () => {
@@ -50,6 +53,18 @@ const Skills = () => {
         <div className="flex gap-3">
           <BlenderIcon />
           <p className="text-lg">Blender</p>
+        </div>
+        <div className="flex gap-3">
+          <MongoDBIcon />
+          <p className="text-lg">Mongo DB</p>
+        </div>
+        <div className="flex gap-3">
+          <ExpressIcon />
+          <p className="text-lg">Express</p>
+        </div>
+        <div className="flex gap-3">
+          <NodeJSIcon />
+          <p className="text-lg">Node JS</p>
         </div>
       </div>
     </div>
